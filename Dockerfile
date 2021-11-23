@@ -1,5 +1,5 @@
 FROM  httpd 
 COPY index.html /var/www/html/  
-EXPOSE 84
+EXPOSE 80
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"] 
